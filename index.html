@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faizan Mobiles | Buy and Sell Used Phones in Gojra</title>
+<meta name="description" content="Tested second-hand mobiles with checking warranty. Sell your old phone and get a fair cash offer the same day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14304f;--navy2:#0d2139;--blue:#2563a8;--amber:#f0a500;--bg:#f5f7fa;--white:#fff;--ink:#1c2a3a;--mute:#5d6c7c;--line:#dde3ea;--ok:#188556;--warn:#a86b00}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:"Public Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+h1,h2,h3{font-family:Manrope,system-ui,sans-serif;line-height:1.2;letter-spacing:-.01em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.top{background:var(--navy2);color:#b9c7d6;font-size:.88rem}
+.top .wrap{display:flex;justify-content:space-between;gap:8px 24px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.bar{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.bar .wrap{display:flex;justify-content:space-between;align-items:center;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font:800 1.25rem Manrope,sans-serif;color:var(--navy);text-decoration:none}
+.logo i{width:32px;height:32px;border-radius:8px;background:var(--navy);position:relative;display:block}
+.logo i:after{content:"";position:absolute;left:11px;top:6px;width:10px;height:20px;border:2px solid var(--white);border-radius:3px}
+.menu a{margin-left:26px;text-decoration:none;font-weight:600;color:var(--mute)}
+.menu a:hover{color:var(--navy)}
+.btn{display:inline-block;border:0;border-radius:8px;padding:12px 22px;font:600 1rem "Public Sans",sans-serif;cursor:pointer;text-decoration:none;text-align:center}
+.btn-main{background:var(--amber);color:var(--navy2)}
+.btn-navy{background:var(--navy);color:var(--white)}
+.btn-ghost{border:1px solid var(--line);background:var(--white);color:var(--navy)}
+.btn-wa{background:var(--ok);color:var(--white)}
+.hero{background:var(--navy);color:var(--white)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;padding-top:72px;padding-bottom:80px}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.3rem);font-weight:800}
+.hero p{margin:18px 0 28px;color:#c6d3e1;font-size:1.1rem;max-width:50ch}
+.hero .btn-ghost{background:transparent;color:var(--white);border-color:#4d6a8a;margin-left:10px}
+.quote{background:var(--white);color:var(--ink);border-radius:14px;padding:26px;box-shadow:0 20px 40px rgba(0,0,0,.25)}
+.quote h2{font-size:1.25rem;margin-bottom:4px}
+.quote p{color:var(--mute);font-size:.95rem;margin:0 0 16px}
+.quote .btn{width:100%;margin-top:12px}
+input,select,textarea{font:1rem "Public Sans",sans-serif;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--white);width:100%;color:var(--ink)}
+.facts{background:var(--white);border-bottom:1px solid var(--line)}
+.facts .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding-top:26px;padding-bottom:26px}
+.facts h3{font-size:1rem}.facts p{color:var(--mute);font-size:.92rem}
+section{padding:64px 0}
+.head{margin-bottom:26px;max-width:60ch}
+.head h2{font-size:2rem}.head p{color:var(--mute);margin-top:6px}
+.tools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.tools input{flex:2 1 240px}.tools select{flex:1 1 160px}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:6px}
+.ph{height:150px;border-radius:8px;background:linear-gradient(160deg,#eaf0f7,#f8fafc);display:grid;place-items:center;margin-bottom:8px}
+.ph i{width:62px;height:118px;border:5px solid var(--navy);border-radius:14px;background:var(--white);position:relative;display:block}
+.ph i:after{content:"";position:absolute;left:50%;top:6px;width:16px;height:3px;margin-left:-8px;background:var(--navy);border-radius:2px}
+.card h3{font-size:1.08rem}
+.badge{align-self:flex-start;font-size:.82rem;font-weight:600;padding:2px 10px;border-radius:6px}
+.A{background:#e3f5ec;color:var(--ok)}.B{background:#fdf1d8;color:var(--warn)}
+.spec{font-size:.92rem;color:var(--mute)}
+.price{font:800 1.45rem Manrope,sans-serif;color:var(--navy);margin:6px 0 10px}
+.acts{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:auto}
+.acts .btn{padding:10px 14px;font-size:.95rem}
+.empty{grid-column:1/-1;background:var(--white);padding:34px;border-radius:12px;text-align:center;color:var(--mute)}
+.steps{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));counter-reset:s}
+.steps div{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:22px;counter-increment:s}
+.steps div:before{content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--navy);color:var(--white);font:800 1rem Manrope,sans-serif;margin-bottom:12px}
+.steps p{color:var(--mute);font-size:.95rem}
+.sellbox{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:30px;display:grid;grid-template-columns:.8fr 1.2fr;gap:36px}
+.sellbox form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.sellbox label{display:grid;gap:5px;font-weight:600;font-size:.92rem}
+.full{grid-column:1/-1}
+.sellbox ul{margin:14px 0 0 18px;color:var(--mute)}
+details{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-bottom:10px}
+summary{font-weight:600;cursor:pointer}
+details p{color:var(--mute);margin-top:8px}
+footer{background:var(--navy2);color:#b9c7d6;padding:44px 0 26px;font-size:.95rem}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}
+footer h3{color:var(--white);font-size:1rem;margin-bottom:8px}
+footer small{grid-column:1/-1;border-top:1px solid #23405f;padding-top:16px;margin-top:8px}
+@media(max-width:800px){.hero .wrap,.sellbox,footer .wrap{grid-template-columns:1fr}.menu a:not(.btn){display:none}.sellbox form{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>Shop 12, Hafeez Centre, Lahore</span><span>Open daily, 11am to 9pm | 0300-0000000</span></div></div>
+<div class="bar"><div class="wrap">
+ <a class="logo" href="#"><i></i>Al-Noor Mobiles</a>
+ <div class="menu"><a href="#phones">Phones</a><a href="#process">How it works</a><a href="#faq">FAQ</a><a class="btn btn-navy" href="#sell">Sell your phone</a></div>
+</div></div>
+
+<div class="hero"><div class="wrap">
+ <div>
+  <h1>Second-hand phones you can trust.</h1>
+  <p>Every phone is tested before it reaches the shelf, priced fairly and backed by a 7-day checking warranty. Selling? Get a clear cash offer the same day.</p>
+  <a class="btn btn-main" href="#phones">Browse phones</a><a class="btn btn-ghost" href="#sell">Sell your phone</a>
+ </div>
+ <div class="quote">
+  <h2>Get a quick offer</h2>
+  <p>Tell us the model. We reply on WhatsApp with a price.</p>
+  <input id="qm" placeholder="e.g. iPhone 11 128GB" aria-label="Phone model">
+  <button class="btn btn-main" id="qb" type="button">Send on WhatsApp</button>
+ </div>
+</div></div>
+
+<div class="facts"><div class="wrap">
+ <div><h3>Tested phones</h3><p>Display, battery, camera, network and ports are checked.</p></div>
+ <div><h3>PTA status stated</h3><p>Each listing says clearly if the phone is PTA approved.</p></div>
+ <div><h3>7-day checking warranty</h3><p>Bring it back within a week if there is a fault.</p></div>
+ <div><h3>Exchange accepted</h3><p>Trade in your old phone against a new purchase.</p></div>
+</div></div>
+
+<section id="phones"><div class="wrap">
+ <div class="head"><h2>Phones in stock</h2><p>Message us on WhatsApp to confirm availability before visiting.</p></div>
+ <div class="tools">
+  <input id="q" type="search" placeholder="Search model" aria-label="Search phones">
+  <select id="brand" aria-label="Brand"><option value="">All brands</option></select>
+  <select id="sort" aria-label="Sort"><option value="">Sort by</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option></select>
+ </div>
+ <div class="grid" id="list"></div>
+</div></section>
+
+<section id="process" style="padding-top:0"><div class="wrap">
+ <div class="head"><h2>How selling works</h2></div>
+ <div class="steps">
+  <div><h3>Share details</h3><p>Send the model, storage, condition and photos.</p></div>
+  <div><h3>Receive an offer</h3><p>We confirm a price after a quick check of the details.</p></div>
+  <div><h3>Get paid in cash</h3><p>Visit the shop, we test the phone and pay you on the spot.</p></div>
+ </div>
+</div></section>
+
+<section id="sell" style="padding-top:0"><div class="wrap"><div class="sellbox">
+ <div><h2>Sell your phone</h2><p style="color:var(--mute);margin-top:8px">Fill this form and it opens WhatsApp with your details ready to send.</p>
+  <ul><li>Bring your original box and charger for a better price</li><li>Keep your CNIC with you when you visit</li><li>Sign out of iCloud or Google account first</li></ul></div>
+ <form id="sellForm">
+  <label>Your name<input name="name" required></label>
+  <label>Phone number<input name="phone" type="tel" required></label>
+  <label>Phone model<input name="model" required></label>
+  <label>Storage<select name="storage"><option>64GB</option><option>128GB</option><option>256GB</option><option>Other</option></select></label>
+  <label>Condition<select name="cond"><option>Like new</option><option>Good</option><option>Some scratches</option><option>Screen or body damage</option></select></label>
+  <label>Expected price (PKR)<input name="price" type="number" min="0"></label>
+  <label class="full">Notes (PTA status, box, charger)<textarea name="note" rows="3"></textarea></label>
+  <button class="btn btn-navy full" type="submit">Send on WhatsApp</button>
+ </form>
+</div></div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap">
+ <div class="head"><h2>Common questions</h2></div>
+ <details><summary>Are your phones PTA approved?</summary><p>Each listing states the PTA status. Non-PTA phones are marked clearly.</p></details>
+ <details><summary>What does the checking warranty cover?</summary><p>If a fault shows within 7 days, bring the phone and receipt to the shop and we will fix or replace it. Edit this answer to match your policy.</p></details>
+ <details><summary>Can I exchange my old phone?</summary><p>Yes. We value your phone and adjust it against the price of the one you buy.</p></details>
+</div></section>
+
+<footer><div class="wrap">
+ <div><h3>Faizan Mobiles</h3><p>Buy and sell used phones with clear pricing and tested quality.</p></div>
+ <div><h3>Visit</h3><p>Shop 12, Hafeez Centre<br>Lahore<br>Daily 11am to 9pm</p></div>
+ <div><h3>Contact</h3><p>WhatsApp: 0309-0461413<br>Email: faizanali413413@gmail.com</p></div>
+ <small>&copy; 2026 Faizan Mobiles. All rights reserved.</small>
+</div></footer>
+
+<script>
+// EDIT: WhatsApp number (country code, no + or spaces) and stock list
+const WA="923090461413";
+const phones=[
+ {name:"iPhone 12 (128GB)",brand:"Apple",price:135000,cond:"A",note:"PTA approved, battery 86%"},
+ {name:"iPhone 11 (64GB)",brand:"Apple",price:88000,cond:"B",note:"Non-PTA, factory unlocked"},
+ {name:"Samsung Galaxy S21 (128GB)",brand:"Samsung",price:78000,cond:"A",note:"PTA approved, with box"},
+ {name:"Samsung Galaxy A52 (128GB)",brand:"Samsung",price:42000,cond:"B",note:"PTA approved, small scratch"},
+ {name:"Redmi Note 11 (128GB)",brand:"Xiaomi",price:31000,cond:"A",note:"PTA approved, charger included"},
+ {name:"Infinix Note 12 (128GB)",brand:"Infinix",price:27000,cond:"B",note:"PTA approved"}
+];
+const label={A:"Grade A: like new",B:"Grade B: light use"};
+const $=id=>document.getElementById(id);
+const pkr=n=>"Rs "+n.toLocaleString("en-PK");
+const wa=t=>"https://wa.me/"+WA+"?text="+encodeURIComponent(t);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+[...new Set(phones.map(p=>p.brand))].forEach(b=>$("brand").add(new Option(b,b)));
+function render(){
+ const q=$("q").value.trim().toLowerCase(),b=$("brand").value,s=$("sort").value;
+ const r=phones.filter(p=>(!b||p.brand===b)&&p.name.toLowerCase().includes(q));
+ if(s)r.sort((x,y)=>s==="lo"?x.price-y.price:y.price-x.price);
+ $("list").innerHTML=r.length?r.map(p=>`<article class="card"><div class="ph"><i></i></div>
+  <h3>${esc(p.name)}</h3><span class="badge ${p.cond}">${label[p.cond]}</span>
+  <p class="spec">${esc(p.note)}</p><p class="price">${pkr(p.price)}</p>
+  <div class="acts"><a class="btn btn-wa" target="_blank" rel="noopener" href="${wa("Hello, I am interested in "+p.name+" ("+pkr(p.price)+"). Is it available?")}">Ask on WhatsApp</a>
+  <a class="btn btn-ghost" href="tel:+${WA}">Call</a></div></article>`).join(""):'<div class="empty">No phone matches your search. Clear the filters or message us for this model.</div>';
+}
+["q","brand","sort"].forEach(id=>$(id).addEventListener("input",render));render();
+$("qb").addEventListener("click",()=>{const m=$("qm").value.trim();if(!m){$("qm").focus();return}
+ window.open(wa("Hello, I want to sell my "+m+". What price can you offer?"),"_blank","noopener")});
+$("sellForm").addEventListener("submit",e=>{e.preventDefault();const f=Object.fromEntries(new FormData(e.target));
+ window.open(wa(`Sell request\nName: ${f.name}\nPhone: ${f.phone}\nModel: ${f.model} (${f.storage})\nCondition: ${f.cond}\nExpected price: ${f.price?"Rs "+f.price:"not sure"}\nNote: ${f.note||"-"}`),"_blank","noopener")});
+</script>
+</body>
+</html>
